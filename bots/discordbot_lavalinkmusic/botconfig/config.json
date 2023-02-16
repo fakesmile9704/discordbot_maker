@@ -1,0 +1,26 @@
+{
+   "token": "",
+   "prefix": "",
+   "comment": "colocar un enlace de un banner en image_banner_music",
+   "image_banner_music": "https://i.imgur.com/ube5hnv.png",
+   "ownerIDS": [ "TU_ID" ],
+   "status": {
+      "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds | Support: teamarcades.xyz/discord",
+      "text2": "By: teamarcades.xyz",
+      "type": "PLAYING",
+      "url": "https://twitch.tv/#"
+   },
+   "clientsettings": {
+      "nodes": [
+         {
+            "host": "lava.link",
+            "port": 80,
+            "password": "team_arcades"
+         }
+      ]
+   },
+   "spotify": {
+      "clientID": "bf5ee2a72bae40ffadc71a47280e5ff9",
+      "clientSecret": "053469ffeb3844079fab734ebf3090c2"
+   }
+}

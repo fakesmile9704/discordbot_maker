@@ -1,0 +1,27 @@
+{
+  "name": "dc-maker-bot-arcades",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "start": "pm2 start ecosystem.config.js",
+    "restart": "pm2 restart ecosystem.config.js",
+    "stop": "pm2 stop ecosystem.config.js"
+  },
+  "author": "k4itrun#7101",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.3",
+    "archiver": "^5.2.0",
+    "ascii-table": "0.0.9",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^12.5.1",
+    "enmap": "^5.8.4",
+    "fs-extra": "^9.1.0"
+  },
+  "devDependencies": {
+    "ascii-table": "0.0.9",
+    "colors": "^1.4.0"
+  }
+}
